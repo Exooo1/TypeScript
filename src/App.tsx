@@ -5,6 +5,7 @@ import './App.css'
 import {BaseType} from "./components/basetype/base.type";
 import {Objects} from "./components/object/objects";
 import {ArrayComponent} from "./components/array/array";
+import {FunctionComponents} from "./components/function/function";
 
 function App() {
     const [count, setCount] = useState(0)
@@ -30,7 +31,8 @@ function App() {
             </div>
             {/*<BaseType/>*/}
             {/*<Objects/>*/}
-            <ArrayComponent/>
+            {/*<ArrayComponent/>*/}
+            <FunctionComponents/>
             <p className="read-the-docs">
                 Click on the Vite and React logos to learn more
             </p>
