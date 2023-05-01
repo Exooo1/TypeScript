@@ -6,6 +6,7 @@ import {BaseType} from "./components/basetype/base.type";
 import {Objects} from "./components/object/objects";
 import {ArrayComponent} from "./components/array/array";
 import {FunctionComponents} from "./components/function/function";
+import {Class} from "./components/class/class";
 
 function App() {
     const [count, setCount] = useState(0)
@@ -32,7 +33,8 @@ function App() {
             {/*<BaseType/>*/}
             {/*<Objects/>*/}
             {/*<ArrayComponent/>*/}
-            <FunctionComponents/>
+            {/*<FunctionComponents/>*/}
+            <Class/>
             <p className="read-the-docs">
                 Click on the Vite and React logos to learn more
             </p>
