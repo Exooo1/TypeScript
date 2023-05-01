@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import {BaseType} from "./components/basetype/base.type";
+import {Objects} from "./components/object/objects";
 
 function App() {
     const [count, setCount] = useState(0)
@@ -26,7 +27,8 @@ function App() {
                     Edit <code>src/App.tsx</code> and save to test HMR
                 </p>
             </div>
-            <BaseType/>
+            {/*<BaseType/>*/}
+            <Objects/>
             <p className="read-the-docs">
                 Click on the Vite and React logos to learn more
             </p>
