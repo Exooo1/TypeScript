@@ -15,4 +15,22 @@ type TString = string // and etc...
 
 type TCommon = TUsers & TSchool
 
+
+type TSomething<T> = {
+    one: string
+    two: T
+}
+
+type AllTypes <T> = {
+    city: string
+    country: string
+}&TSomething<T>
+
+const t:AllTypes<number> = {
+    city:'',
+    country:'',
+    two:2,
+    one:''
+}
+
 export {}

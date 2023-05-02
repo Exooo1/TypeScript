@@ -86,5 +86,19 @@ class Bus extends Car {
         return `${this.getName()} year:1998`
     }
 }
-
 console.log(new Bus('Audi').getNameYear())
+
+class School<T,I> {
+    private readonly number:T
+
+    constructor(number:T) {
+     this.number=number
+    }
+
+    getNumber():I{
+        return this.number
+    }
+}
+
+const twenty = new School<number,string>(18)
+console.log(twenty.getNumber())
