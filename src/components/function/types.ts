@@ -5,4 +5,4 @@ type SimpleObject = {
 
 type FuncFiveType = (name: string) => string
 
-export {SimpleObject,FuncFiveType}
+export {SimpleObject,FuncFiveType,TSimple}

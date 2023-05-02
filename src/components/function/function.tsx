@@ -1,4 +1,4 @@
-import {FuncFiveType, SimpleObject} from "./types";
+import {FuncFiveType, SimpleObject, TSimple} from "./types";
 
 export const FunctionComponents = () => {
     return <div>
@@ -36,3 +36,4 @@ function per(value: string, price?: number):string {
 }
 
 per('Hello')
+

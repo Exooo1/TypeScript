@@ -1,4 +1,4 @@
-import {ObjectTypeOne, SimpleObjectType} from "./types";
+import {ObjectTypeOne, SimpleObjectType, TSimple} from "./types";
 
 export const Objects = () => {
     return <div>
