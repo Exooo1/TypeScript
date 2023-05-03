@@ -27,13 +27,29 @@ const funcSix = (...rest: number[]) => {
     console.log(rest)
 }
 
-function per(value: string):string
+function per(value: string): string
 
-function per(value: string, price: number):string
+function per(value: string, price: number): string
 
-function per(value: string, price?: number):string {
+function per(value: string, price?: number): string {
     return `${value} + ${price}`
 }
 
 per('Hello')
 
+type TypeLength = {
+    length: number
+    trim: () => string
+}
+
+const func5 = <T extends TypeLength>(value: T): number => {
+    return value.length
+}
+func5('24')
+
+const getLength = (text: string | null) => {
+    return text!.length
+}
+
+getLength('')
+// getLength(null)

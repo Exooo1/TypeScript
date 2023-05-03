@@ -31,4 +31,3 @@ const r:IAll<number> = {
     two:2
 }
 console.log(r.two)
-

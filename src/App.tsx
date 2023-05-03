@@ -33,8 +33,8 @@ function App() {
             {/*<BaseType/>*/}
             {/*<Objects/>*/}
             {/*<ArrayComponent/>*/}
-            {/*<FunctionComponents/>*/}
-            <Class/>
+            <FunctionComponents/>
+            {/*<Class/>*/}
             <p className="read-the-docs">
                 Click on the Vite and React logos to learn more
             </p>
