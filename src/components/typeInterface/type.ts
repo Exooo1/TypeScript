@@ -32,5 +32,13 @@ const t:AllTypes<number> = {
     two:2,
     one:''
 }
+type B = {
+    b:number
+}
+type A  = {
+    a:string
+}|B
+
+// const muc:A = {b:24,a:'ss'} будет ошибка, только одно свойство из двух типов
 
 export {}

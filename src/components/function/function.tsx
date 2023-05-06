@@ -53,3 +53,4 @@ const getLength = (text: string | null) => {
 
 getLength('')
 // getLength(null)
+
